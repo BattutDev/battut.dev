@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="258px" height="252px" viewBox="0 0 258 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <radialGradient cx="84.92971%" cy="18.9139287%" fx="84.92971%" fy="18.9139287%" r="108.809268%" gradientTransform="translate(0.849297,0.189139),scale(0.961509,1.000000),rotate(139.050877),scale(1.000000,0.891651),translate(-0.849297,-0.189139)" id="radialGradient-1">
+            <stop stop-color="#32C5FF" offset="0%"></stop>
+            <stop stop-color="#B620E0" offset="51.2583893%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-37.6%" y="-39.1%" width="175.1%" height="178.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="20" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---dark" transform="translate(-631.000000, -145.000000)" fill="url(#radialGradient-1)">
+            <g id="Header" transform="translate(109.000000, 193.811413)">
+                <g id="User" transform="translate(570.904818, -0.000000)">
+                    <path d="M81.5951824,153.188587 C104.527089,153.188587 137.271864,153.154769 151.11862,137.016712 C162.44967,123.810649 157.095182,96.4541789 157.095182,77.6885867 C157.095182,55.7324702 166.080594,23.2773457 151.11862,9.48155542 C137.665874,-2.92264043 101.336565,2.18858667 81.5951824,2.18858667 C59.1532547,2.18718051 26.412517,-6.06279687 12.5834636,9.48155542 C0.71789117,22.8188847 6.09518239,58.4330157 6.09518239,77.6885867 C6.09518239,92.8008123 -4.95008156,125.211869 2.69663964,137.016712 C16.1486735,157.783671 55.0099094,153.188587 81.5951824,153.188587 Z" id="Oval" filter="url(#filter-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

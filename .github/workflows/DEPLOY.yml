@@ -1,3 +1,4 @@
+
 name: Build
 
 on: [push]
@@ -12,6 +13,6 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.PRIVATE_KEY }}
+          password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-      - run: mkdir Dossier
+          script: bash script.sh
