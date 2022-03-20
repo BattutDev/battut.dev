@@ -1,36 +1,45 @@
 <script lang="ts">
-  import NavBar from "./components/NavBar.vue";
+  import Header from "./components/Header.vue";
   import BackToTop from './components/BackToTop.vue';
-  import MainPage from './components/MainPage.vue';
+  import Presentation from './components/Presentation.vue';
 
   export default {
     components: {
-      NavBar,
+      Header,
       BackToTop,
-      MainPage
+      Presentation
     }
   }
 
 </script>
 
 <template>
-  <NavBar/>
+  <Header/>
   <BackToTop/>
-  <MainPage/>
+  <Presentation/>
 </template>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+  /* Disable h* padding & margin */
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
   }
-
-  a {
+  /* Disable href base style */
+  a, a:visited {
     text-decoration: none;
+    color: #fffffe;
   }
+  /* Disable font-awesome icons padding & margin */
+  a * {
+    padding: 0;
+    margin: 0;
+  }
+
+
   li {
     list-style-type: none;
   }
@@ -45,6 +54,7 @@
 
   /* Marche sur Chrome, Edge, et Safari */
   *::-webkit-scrollbar {
+
     width: 6px;
   }
 

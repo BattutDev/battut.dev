@@ -37,10 +37,11 @@
     }
 
     .main_container {
+        height: 100vh;
         z-index: 1;
 
 
-        margin: 25vh 50px 0 50px;
+        margin: 0 50px;
 
 
 
