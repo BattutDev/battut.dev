@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-auto bg-bunker-500 text-white">
+    <div class="w-screen h-auto bg-bunker-500 text-white overflow-x-hidden">
       <div id="landing-page" class="w-full h-screen flex justify-center items-center flex-col">
         <h1
             class="text-3xl md:text-4xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-white font-ligurino"
