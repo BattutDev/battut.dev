@@ -29,10 +29,8 @@ export default defineNuxtConfig({
 				{ name: 'twitter:title', content: 'Antoine Battut | Développement Web et Logiciel'},
 				{ name: 'twitter:url', content: 'https://battut.dev'},
 				{ name: 'twitter:description', content: 'Développeur Français, spécialisé dans la conception et réalisation d\'applications Web et bureautiques'},
-				{ name: 'twitter:image', content: 'https://battut.dev/icon.png'}
-
-				//  <meta property="og:image" content="https://chilledbot.xyz/assets/img/chilledbot.webp">
-				// { name: 'format-detection', content: 'telephone=yes' },
+				{ name: 'twitter:image', content: 'https://battut.dev/icon.png'},
+				{ name: 'format-detection', content: 'telephone=yes' }
 			],
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' },

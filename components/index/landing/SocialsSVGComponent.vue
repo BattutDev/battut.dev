@@ -73,7 +73,7 @@ defineProps<Props>();
 <style scoped>
 
 .social_svg {
-    @apply duration-300 ease-in p-3 hover:bg-bunker-900 hover:text-purple-500 rounded-2xl h-12
+    @apply duration-300 ease-in p-3 hover:text-purple-500 rounded-2xl h-12
 }
 
 </style>
