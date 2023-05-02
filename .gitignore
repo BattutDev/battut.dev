@@ -5,5 +5,7 @@ node_modules
 .cache
 .output
 .env
+.vite
 dist
+.idea
 package-lock.json

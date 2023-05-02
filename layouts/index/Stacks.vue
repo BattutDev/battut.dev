@@ -1,5 +1,5 @@
 <template>
-<div class="flex  justify-center items-center flex-col gap-10 px-5 md:px-32">
+<div class="flex justify-center items-center flex-col gap-10 px-5 md:px-32">
     <h2 class="text-2xl md:text-3xl font-semibold">Technologies</h2>
     <div class="flex justify-center flex-wrap gap-5 w-full max-w-screen-lg h-auto ">
         <StackComponent v-for="(img, index) in imgs" :key="index" :name="img.name" :url="img.url" :group="img.group"/>
