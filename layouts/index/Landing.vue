@@ -44,11 +44,12 @@ const strings = ref<Strings>({
 	description: 'Étudiant et Développeur junior d\'applications Web et Logicieles',
 	strEdition: ['Développeur Web', 'UX/UI Designer', 'Développeur Logiciel'],
 	socials: {
-		icons: ['mail', 'github', 'linkedin'],
+		icons: ['mail', 'github', 'linkedin', 'twitter'],
 		links: {
 			mail: 'mailto:antoine@battut.dev',
 			github: 'https://github.com/battutdev',
-			linkedin: 'https://www.linkedin.com/in/antoine-battut'
+			linkedin: 'https://www.linkedin.com/in/antoine-battut',
+			twitter: 'https://twitter.com/antoineb_dev'
 		}
 	},
 	profilePictureSrc: '/icon.png'
