@@ -50,7 +50,7 @@ const projects: Array<CardComponentProps> = [
 		startingDate: 'mai 30, 2022',
 		endingDate: 'juil 05, 2022',
 		stacks: ['ts', 'git', 'nuxtjs', 'vue', 'tailwind', 'nodejs'],
-		link: 'https://raidprotect.org'
+		link: 'https://sarl.battut.dev'
 	}, {
 		name: 'GMAGRO',
 		banner: 'https://sio.jbdelasalle.com/~abattut/gmagrowww/images/gmagro.png',
