@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	build: {
+		transpile: ['swiper']
+	},
 	css: ['~/assets/css/main.css'],
 	postcss: {
 		plugins: {
@@ -18,7 +21,7 @@ export default defineNuxtConfig({
 				{ charset: 'utf-8' },
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 				{ hid: 'description', name: 'description', content: 'Développeur Français, spécialisé dans la conception et réalisation d\'applications Web et bureautiques' },
-				{ name: 'robots', content: 'noindex'},
+				{ name: 'robots', content: 'noindex, nofollow'},
 				{ property: 'og:title', content: 'Antoine Battut | Développement Web et Logiciel'},
 				{ property: 'og:description', content: 'Développeur Français, spécialisé dans la conception et réalisation d\'applications Web et bureautiques'},
 				{ property: 'og:url', content: 'https://battut.dev'},
