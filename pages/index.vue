@@ -6,6 +6,10 @@
       <Stacks/>
 
       <Projects/>
+      <div class="w-screen h-screen flex justify-center items-center">
+        <img class="w-2/3" src="~/assets/synth.png" alt="tableau de synthèse">
+
+      </div>
   </div>
 </template>
 
