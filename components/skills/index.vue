@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center gap-10 py-24 w-full">
       <h2 class="text-2xl text-white font-semibold">Compétences techniques</h2>
-      <div class="flex flex-row gap-5">
+      <div class="flex flex-row justify-center gap-5 flex-wrap md:flex-nowrap">
         <button v-for="(item, index) in buttons" :key="index" class="px-2 py-1 hover:bg-white hover:bg-opacity-25 rounded-lg ease-in-out duration-200" @click="changeType(item.type)">
           {{ item.name }}
         </button>
