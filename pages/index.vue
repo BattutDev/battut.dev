@@ -8,6 +8,7 @@
       <Landing />
       <LandingWhoami />
       <Skills />
+      <Projects />
       <Footer />
     </div>
   </div>
