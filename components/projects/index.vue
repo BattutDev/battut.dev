@@ -35,7 +35,7 @@ const works = ref<Array<WorkProps>>([
 		links: [
 			{
 				name: 'Site',
-				url: 'https://sarl.battut.dev'
+				url: 'https://sarl-battut.fr'
 			}
 		],
 		image: {
