@@ -43,6 +43,17 @@ const works = ref<Array<WorkProps>>([
 			alt: 'Logo de l\'entreprise Battut'
 		}
 	},
+	{
+		title: 'dashboard-mvc - Template de dashboard',
+		description: 'Développement d\'une template de dashboard en php avec symfony 6.x, tailwindcss, avec authentification, et roles. la template intègre un CRUD des utilisateurs',
+		links: [
+			{
+				name: 'Dépot github',
+				url: 'https://github.com/BattutDev/dashboard-mvc'
+			}
+		],
+		image: false
+	},
 ]);
 
 </script>
