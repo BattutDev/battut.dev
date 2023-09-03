@@ -44,6 +44,20 @@ const works = ref<Array<WorkProps>>([
 		}
 	},
 	{
+		title: 'Atom Project - Site vitrine',
+		description: 'Design & Intégration du site vitrine d\'une vitrine de boutique de services liés à l\'application "discord',
+		links: [
+			{
+				name: 'Site',
+				url: 'https://atom-project.pages.dev'
+			}
+		],
+		image: {
+			src: '/img/atom.png',
+			alt: 'Logo du service'
+		}
+	},
+	{
 		title: 'dashboard-mvc - Template de dashboard',
 		description: 'Développement d\'une template de dashboard en php avec symfony 6.x, tailwindcss, avec authentification, et roles. la template intègre un CRUD des utilisateurs',
 		links: [

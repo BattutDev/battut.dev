@@ -1,8 +1,8 @@
 <template>
 
   <div class="w-auto flex flex-col lg:flex-row gap-5 items-center rounded-lg bg-white bg-opacity-70 p-4 font-sans text-sm">
-    <div v-if="image">
-      <img :src="image.src" class="max-w-sm lg:max-w-xs xl:max-w-sm p-4" :alt="image.alt">
+    <div v-if="image" class="rounded">
+      <img :src="image.src" class="rounded max-w-sm max-h-40 lg:max-w-xs xl:max-w-sm p-4" :alt="image.alt">
     </div>
     <div class="bg-gray-500 rounded-lg h-0.5 lg:h-4/5 w-4/5 lg:w-0.5"></div>
     <div class="flex flex-col w-4/5 gap-5">
