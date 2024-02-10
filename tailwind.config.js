@@ -11,8 +11,14 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				fredoka: ['Fredoka', 'sans-serif'],
-				sourcecode: ['source-code-pro', 'monospace']
+
+			},
+
+			animation: {
+
+			},
+
+			keyframes: {
 			},
 		},
 	},
